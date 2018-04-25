@@ -5,6 +5,7 @@
   background: #000;
   color: #fff;
   box-sizing: border-box !important;
+  word-wrap: break-word;
 }
 h1 {
   font-size: 2.5rem;
@@ -33,6 +34,7 @@ a {
 }
 a:hover {
   background-size: 100% 88%;
+  text-decoration-skip: ink;
 }
 header {
   position: fixed;
@@ -79,6 +81,11 @@ footer .right a {
 }
 footer .right a:hover {
   text-decoration: underline;
+}
+.desc {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8rem 2rem 4rem;
 }
 .hero {
   height: 100vh;
@@ -184,6 +191,8 @@ iframe {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  padding: 2rem;
+  text-align: center;
 }
 .upvote h1,
 .upvote h3 {
@@ -215,5 +224,6 @@ iframe {
   }
   .history .block {
     display: block;
+    padding: 0 0 1rem 0;
   }
 }

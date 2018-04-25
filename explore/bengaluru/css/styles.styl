@@ -5,6 +5,7 @@
     background black
     color white
     box-sizing border-box !important
+    word-wrap break-word
 
 h1
     font-size 2.5rem
@@ -29,6 +30,7 @@ a
     text-decoration none
     &:hover
         background-size 100% 88%
+        text-decoration-skip ink
 
 header
     position fixed
@@ -66,6 +68,11 @@ footer
             &:hover
                 text-decoration underline
 
+.desc
+    max-width 960px
+    margin 0 auto
+    padding 8rem 2rem 4rem
+
 .hero
     height 100vh
     width 100%
@@ -92,7 +99,7 @@ iframe
     left 0
     width 100%
     height 100vh
-    
+
 .attractions
     max-width 960px
     margin 5rem auto
@@ -154,6 +161,8 @@ iframe
     justify-content center
     align-items center
     flex-flow column wrap
+    padding 2rem
+    text-align center
     h1, h3
         background none
         a
@@ -181,3 +190,4 @@ iframe
     .history
         .block
             display block
+            padding 0 0 1rem 0
