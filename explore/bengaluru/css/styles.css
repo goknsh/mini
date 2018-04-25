@@ -176,6 +176,29 @@ iframe {
 .history .block .event {
   flex: 3;
 }
+.upvote {
+  background: #ff1d5d;
+  height: 80vh;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.upvote h1,
+.upvote h3 {
+  background: none;
+}
+.upvote h1 a,
+.upvote h3 a {
+  background-image: none;
+  background: none;
+  color: #ababab;
+}
+.upvote h1 a:hover,
+.upvote h3 a:hover {
+  text-decoration: underline;
+}
 @media screen and (max-width: 550px) {
   header {
     display: none;
